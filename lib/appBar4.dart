@@ -74,6 +74,7 @@ class AppBar4 extends StatelessWidget {
           onPressed: () {},
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar:
           BottomNavigationBar(backgroundColor: Colors.pink, items: [
         BottomNavigationBarItem(
@@ -84,7 +85,7 @@ class AppBar4 extends StatelessWidget {
               color: Colors.black,
             ),
           ),
-          label: "Account",
+          label: "",
         ),
         BottomNavigationBarItem(
             icon: IconButton(
@@ -94,7 +95,7 @@ class AppBar4 extends StatelessWidget {
                 color: Colors.black,
               ),
             ),
-            label: "fav"),
+            label: ""),
       ]),
     );
   }
